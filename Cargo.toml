@@ -13,6 +13,6 @@ license = "MIT"
 include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]
 
 [dependencies]
-rocket = { git = "https://github.com/rwf2/Rocket" }
+rocket = { git = "https://github.com/rwf2/Rocket", rev="f50b604" }
 accept-language = "3"
 unic-langid = { version = "0.9", features = ["macros"] }
